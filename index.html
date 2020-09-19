@@ -1,40 +1,71 @@
-<!-- cpanel - site_templates/countdown_fresh/index.html.tt Copyright(c) 2016 cPanel, Inc.
-                                                            All rights Reserved.
-copyright@cpanel.net                                           http://cpanel.net
-This code is subject to the cPanel license. Unauthorized copying is prohibited -->
-
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-
-    <title>Smart Reuse Lancaster</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-    <link rel="icon" href="/assets/images/favicon.ico" />
-    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
-
-    <link href="assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-
-    <!-- Page stylesheet -->
-    <link id="css-core" rel="stylesheet" type="text/css" href="assets/core.css" />
-    <link id="css-cpanel" rel="stylesheet" type="text/css" href="assets/cpanel.css" />
-
-    <script src="assets/config.js"></script>
+	<title>be SMART REUSE it</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
+	<link href="01-comming-soon/css/styles.css" rel="stylesheet">
+	<link href="01-comming-soon/css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="smartreuse.css">
 </head>
-
 <body>
-    <!-- App root -->
-    <div id="mainContainer">
-        <noscript class="noscript">Your browser has javascript turned off.  Please reload the site with javascript enabled to view the site.</noscript>
-
-        <div class="spinner"><div class="spinner__inner"></div></div>
-    </div>
-
-    <script id="js-vendor" src="dist/dll.vendor.js"></script>
-    <script id="js-main" src="dist/main.js"></script>
-
     
+    <div class="container bg">
+
+        <div class="display-table">
+            <div class="display-table-cell">
+                <div class="main-content title">
+                    <h1><b>Under Construction</b></h1>
+                    <p class="title">Smart Reuse Lancaster is coming soon!</p>    
+                </div><!-- main-content -->
+            </div><!-- display-table-cell -->
+            <div class="display-table-cell">
+                    
+                <div id="rounded-countdown">
+                    <div class="countdown" data-remaining-sec="864000"></div>
+                </div>
+            </div>
+
+    		<div class="section align-self-center">
+                <ul class="footer-icons d-flex justify-content-center ">
+                    <li>Get in touch : </li>
+                    <li><a href="https://www.facebook.com/smartreuselancaster"><i class="ion-social-facebook"></i></a></li>    
+                </ul>
+            </div>
+        </div><!-- display-table -->
+    </div><!-- container -->
+	
+	<!-- SCRIPTS -->
+	
+    <script src="smartreuse.js"></script>
+    
+    <script src="common-js/jquery-3.1.1.min.js"></script>
+	
+	<script src="common-js/tether.min.js"></script>
+	
+	<script src="common-js/bootstrap.js"></script>
+	
+	<script src="common-js/jquery.classycountdown.js"></script>
+	
+	<script src="common-js/jquery.knob.js"></script>
+	
+	<script src="common-js/jquery.throttle.js"></script>
+	
+    <script src="common-js/scripts.js"></script>
+    
+    
+	
 </body>
 </html>

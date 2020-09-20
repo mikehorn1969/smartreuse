@@ -21,7 +21,13 @@ body, html {
 
   .title {
       color: white  ;
+      /*font-size: 50px;*/
   }
+
+  .countdown {
+    color: white  ;
+    font-size: 50px;
+}
 
   .fa {
     padding: 20px;

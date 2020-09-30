@@ -181,7 +181,7 @@ img { max-width: 100%; }
 
 .navbar-brand {
 	width: 250px;
-	background: url(../img/logo.png) left center no-repeat;
+	background: url(../logo2.png) left center no-repeat;
 	border: 0;
 	text-indent: -99999px;
 }
@@ -190,11 +190,13 @@ img { max-width: 100%; }
 /***** Top content *****/
 
 .top-content {
-    padding: 210px 0;
+	padding: 160px 0;
+	color: #fff;
 }
 
 .top-content .text {
-	color: #fff;
+	/* margin: 30px 0 10px 0;	   */
+	background: rgba(156, 160, 159,0.6);
 }
 
 .top-content .text h1 {
@@ -203,10 +205,8 @@ img { max-width: 100%; }
 }
 
 .top-content .description {
-	margin: 30px 0 10px 0;
+	margin: 30px 0 10px 0;	  
 }
-
-.top-content .description p { opacity: 0.8; }
 
 .top-content .top-big-link {
 	margin-top: 45px;
@@ -222,12 +222,17 @@ img { max-width: 100%; }
     border-radius: 85%; 
   }
 
-  /* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+/* Facebook */
+	.fa-facebook {
+  	/* background: #3B5998; */
+  	/* color: white; */
 }
 
+/* Instagram */
+.fa-instagram {
+	/* background: #3B5998; */
+	/* color: white; */
+}
 
 /***** Services *****/
 
@@ -264,13 +269,17 @@ img { max-width: 100%; }
 
 /***** About us *****/
 
+/* about-us-container section-container section-container-gray-bg */
+
 .about-us-box {
 	margin-top: 100px;
+	height: 400px;
 }
 
 .about-us-box-text {
 	padding-right: 30px;
 	text-align: left;
+	
 }
 
 .about-us-box-text h3 {
@@ -285,10 +294,16 @@ img { max-width: 100%; }
 .about-us-box-text a { border-bottom: 1px dashed #9b59b6; }
 .about-us-box-text a:hover, .about-us-box-text a:focus { border: 0; }
 
-.about-us-box-img img {
-	border-radius: 4px;
+.about-us-box-img{
+	height: auto;
+
+
 }
 
+.about-us-box-img img {
+	border-radius: 4px;
+
+}
 
 /***** More services *****/
 

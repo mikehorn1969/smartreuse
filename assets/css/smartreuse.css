@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("assets/images/chair1.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer-icons {
+      color: black;
+  }
+
+  .title {
+      color: white  ;
+      /*font-size: 50px;*/
+  }
+
+  .countdown {
+    color: white  ;
+    font-size: 50px;
+}
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+
+  /* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
